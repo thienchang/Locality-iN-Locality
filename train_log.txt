@@ -1,0 +1,276 @@
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\helpers.py:7: FutureWarning: Importing from timm.models.helpers is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\layers\__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:78: UserWarning: Overwriting deit_tiny_patch16_224 in registry with models.deit.deit_tiny_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:93: UserWarning: Overwriting deit_small_patch16_224 in registry with models.deit.deit_small_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:108: UserWarning: Overwriting deit_base_patch16_224 in registry with models.deit.deit_base_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:123: UserWarning: Overwriting deit_tiny_distilled_patch16_224 in registry with models.deit.deit_tiny_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:138: UserWarning: Overwriting deit_small_distilled_patch16_224 in registry with models.deit.deit_small_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:153: UserWarning: Overwriting deit_base_distilled_patch16_224 in registry with models.deit.deit_base_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:168: UserWarning: Overwriting deit_base_patch16_384 in registry with models.deit.deit_base_patch16_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:183: UserWarning: Overwriting deit_base_distilled_patch16_384 in registry with models.deit.deit_base_distilled_patch16_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\tnt.py:257: UserWarning: Overwriting tnt_s_patch16_224 in registry with models.tnt.tnt_s_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\tnt.py:268: UserWarning: Overwriting tnt_b_patch16_224 in registry with models.tnt.tnt_b_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\swin_transformer.py:582: UserWarning: Overwriting swin_tiny_patch4_window7_224 in registry with models.swin_transformer.swin_tiny_patch4_window7_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\LNL.py:118: UserWarning: Overwriting LNL_Ti in registry with LNL.LNL_Ti. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\LNL.py:129: UserWarning: Overwriting LNL_S in registry with LNL.LNL_S. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+PyTorch 2.13.0+cu126  cuda=True
+train: 39209 images, 43 classes (augmented)
+test : 12630 images (deterministic)
+optimiser : AdamW lr=0.0005 wd=0.05 ls=0.1
+schedule  : 3ep warmup + cosine -> 1e-06, 1225 steps/epoch, max 80 epochs
+amp=True  clip_grad=1.0  ema_decay=0.9998  target_acc=99.5
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\helpers.py:7: FutureWarning: Importing from timm.models.helpers is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\layers\__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:78: UserWarning: Overwriting deit_tiny_patch16_224 in registry with models.deit.deit_tiny_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:93: UserWarning: Overwriting deit_small_patch16_224 in registry with models.deit.deit_small_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:108: UserWarning: Overwriting deit_base_patch16_224 in registry with models.deit.deit_base_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:123: UserWarning: Overwriting deit_tiny_distilled_patch16_224 in registry with models.deit.deit_tiny_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:138: UserWarning: Overwriting deit_small_distilled_patch16_224 in registry with models.deit.deit_small_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:153: UserWarning: Overwriting deit_base_distilled_patch16_224 in registry with models.deit.deit_base_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:168: UserWarning: Overwriting deit_base_patch16_384 in registry with models.deit.deit_base_patch16_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:183: UserWarning: Overwriting deit_base_distilled_patch16_384 in registry with models.deit.deit_base_distilled_patch16_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\tnt.py:257: UserWarning: Overwriting tnt_s_patch16_224 in registry with models.tnt.tnt_s_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\tnt.py:268: UserWarning: Overwriting tnt_b_patch16_224 in registry with models.tnt.tnt_b_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\swin_transformer.py:582: UserWarning: Overwriting swin_tiny_patch4_window7_224 in registry with models.swin_transformer.swin_tiny_patch4_window7_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\LNL.py:118: UserWarning: Overwriting LNL_Ti in registry with LNL.LNL_Ti. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\LNL.py:129: UserWarning: Overwriting LNL_S in registry with LNL.LNL_S. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\helpers.py:7: FutureWarning: Importing from timm.models.helpers is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\layers\__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:78: UserWarning: Overwriting deit_tiny_patch16_224 in registry with models.deit.deit_tiny_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:93: UserWarning: Overwriting deit_small_patch16_224 in registry with models.deit.deit_small_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:108: UserWarning: Overwriting deit_base_patch16_224 in registry with models.deit.deit_base_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:123: UserWarning: Overwriting deit_tiny_distilled_patch16_224 in registry with models.deit.deit_tiny_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:138: UserWarning: Overwriting deit_small_distilled_patch16_224 in registry with models.deit.deit_small_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:153: UserWarning: Overwriting deit_base_distilled_patch16_224 in registry with models.deit.deit_base_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:168: UserWarning: Overwriting deit_base_patch16_384 in registry with models.deit.deit_base_patch16_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:183: UserWarning: Overwriting deit_base_distilled_patch16_384 in registry with models.deit.deit_base_distilled_patch16_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\tnt.py:257: UserWarning: Overwriting tnt_s_patch16_224 in registry with models.tnt.tnt_s_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\tnt.py:268: UserWarning: Overwriting tnt_b_patch16_224 in registry with models.tnt.tnt_b_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\swin_transformer.py:582: UserWarning: Overwriting swin_tiny_patch4_window7_224 in registry with models.swin_transformer.swin_tiny_patch4_window7_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\LNL.py:118: UserWarning: Overwriting LNL_Ti in registry with LNL.LNL_Ti. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\LNL.py:129: UserWarning: Overwriting LNL_S in registry with LNL.LNL_S. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\helpers.py:7: FutureWarning: Importing from timm.models.helpers is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\layers\__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:78: UserWarning: Overwriting deit_tiny_patch16_224 in registry with models.deit.deit_tiny_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:93: UserWarning: Overwriting deit_small_patch16_224 in registry with models.deit.deit_small_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:108: UserWarning: Overwriting deit_base_patch16_224 in registry with models.deit.deit_base_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:123: UserWarning: Overwriting deit_tiny_distilled_patch16_224 in registry with models.deit.deit_tiny_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:138: UserWarning: Overwriting deit_small_distilled_patch16_224 in registry with models.deit.deit_small_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:153: UserWarning: Overwriting deit_base_distilled_patch16_224 in registry with models.deit.deit_base_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:168: UserWarning: Overwriting deit_base_patch16_384 in registry with models.deit.deit_base_patch16_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:183: UserWarning: Overwriting deit_base_distilled_patch16_384 in registry with models.deit.deit_base_distilled_patch16_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\tnt.py:257: UserWarning: Overwriting tnt_s_patch16_224 in registry with models.tnt.tnt_s_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\tnt.py:268: UserWarning: Overwriting tnt_b_patch16_224 in registry with models.tnt.tnt_b_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\swin_transformer.py:582: UserWarning: Overwriting swin_tiny_patch4_window7_224 in registry with models.swin_transformer.swin_tiny_patch4_window7_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\LNL.py:118: UserWarning: Overwriting LNL_Ti in registry with LNL.LNL_Ti. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\LNL.py:129: UserWarning: Overwriting LNL_S in registry with LNL.LNL_S. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\helpers.py:7: FutureWarning: Importing from timm.models.helpers is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\layers\__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:78: UserWarning: Overwriting deit_tiny_patch16_224 in registry with models.deit.deit_tiny_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:93: UserWarning: Overwriting deit_small_patch16_224 in registry with models.deit.deit_small_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:108: UserWarning: Overwriting deit_base_patch16_224 in registry with models.deit.deit_base_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:123: UserWarning: Overwriting deit_tiny_distilled_patch16_224 in registry with models.deit.deit_tiny_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:138: UserWarning: Overwriting deit_small_distilled_patch16_224 in registry with models.deit.deit_small_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:153: UserWarning: Overwriting deit_base_distilled_patch16_224 in registry with models.deit.deit_base_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:168: UserWarning: Overwriting deit_base_patch16_384 in registry with models.deit.deit_base_patch16_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:183: UserWarning: Overwriting deit_base_distilled_patch16_384 in registry with models.deit.deit_base_distilled_patch16_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\tnt.py:257: UserWarning: Overwriting tnt_s_patch16_224 in registry with models.tnt.tnt_s_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\tnt.py:268: UserWarning: Overwriting tnt_b_patch16_224 in registry with models.tnt.tnt_b_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\swin_transformer.py:582: UserWarning: Overwriting swin_tiny_patch4_window7_224 in registry with models.swin_transformer.swin_tiny_patch4_window7_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\LNL.py:118: UserWarning: Overwriting LNL_Ti in registry with LNL.LNL_Ti. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\LNL.py:129: UserWarning: Overwriting LNL_S in registry with LNL.LNL_S. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+Epoch [1/80], lter [200/1225], Loss: 3.529579, lr 2.73e-05
+Epoch [1/80], lter [400/1225], Loss: 3.362862, lr 5.46e-05
+Epoch [1/80], lter [600/1225], Loss: 3.174088, lr 8.18e-05
+Epoch [1/80], lter [800/1225], Loss: 2.957083, lr 1.09e-04
+Epoch [1/80], lter [1000/1225], Loss: 2.707089, lr 1.36e-04
+Epoch [1/80], lter [1200/1225], Loss: 2.461168, lr 1.63e-04
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\helpers.py:7: FutureWarning: Importing from timm.models.helpers is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\layers\__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:78: UserWarning: Overwriting deit_tiny_patch16_224 in registry with models.deit.deit_tiny_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:93: UserWarning: Overwriting deit_small_patch16_224 in registry with models.deit.deit_small_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:108: UserWarning: Overwriting deit_base_patch16_224 in registry with models.deit.deit_base_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:123: UserWarning: Overwriting deit_tiny_distilled_patch16_224 in registry with models.deit.deit_tiny_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:138: UserWarning: Overwriting deit_small_distilled_patch16_224 in registry with models.deit.deit_small_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:153: UserWarning: Overwriting deit_base_distilled_patch16_224 in registry with models.deit.deit_base_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:168: UserWarning: Overwriting deit_base_patch16_384 in registry with models.deit.deit_base_patch16_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:183: UserWarning: Overwriting deit_base_distilled_patch16_384 in registry with models.deit.deit_base_distilled_patch16_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\tnt.py:257: UserWarning: Overwriting tnt_s_patch16_224 in registry with models.tnt.tnt_s_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\tnt.py:268: UserWarning: Overwriting tnt_b_patch16_224 in registry with models.tnt.tnt_b_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\swin_transformer.py:582: UserWarning: Overwriting swin_tiny_patch4_window7_224 in registry with models.swin_transformer.swin_tiny_patch4_window7_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\LNL.py:118: UserWarning: Overwriting LNL_Ti in registry with LNL.LNL_Ti. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\LNL.py:129: UserWarning: Overwriting LNL_S in registry with LNL.LNL_S. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\helpers.py:7: FutureWarning: Importing from timm.models.helpers is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\layers\__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\.venv\Lib\site-packages\timm\models\registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:78: UserWarning: Overwriting deit_tiny_patch16_224 in registry with models.deit.deit_tiny_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:93: UserWarning: Overwriting deit_small_patch16_224 in registry with models.deit.deit_small_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:108: UserWarning: Overwriting deit_base_patch16_224 in registry with models.deit.deit_base_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:123: UserWarning: Overwriting deit_tiny_distilled_patch16_224 in registry with models.deit.deit_tiny_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:138: UserWarning: Overwriting deit_small_distilled_patch16_224 in registry with models.deit.deit_small_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:153: UserWarning: Overwriting deit_base_distilled_patch16_224 in registry with models.deit.deit_base_distilled_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:168: UserWarning: Overwriting deit_base_patch16_384 in registry with models.deit.deit_base_patch16_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\deit.py:183: UserWarning: Overwriting deit_base_distilled_patch16_384 in registry with models.deit.deit_base_distilled_patch16_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\tnt.py:257: UserWarning: Overwriting tnt_s_patch16_224 in registry with models.tnt.tnt_s_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\tnt.py:268: UserWarning: Overwriting tnt_b_patch16_224 in registry with models.tnt.tnt_b_patch16_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\models\swin_transformer.py:582: UserWarning: Overwriting swin_tiny_patch4_window7_224 in registry with models.swin_transformer.swin_tiny_patch4_window7_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\LNL.py:118: UserWarning: Overwriting LNL_Ti in registry with LNL.LNL_Ti. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+D:\Projects\MachineLearning\Locality-iN-Locality\LNL.py:129: UserWarning: Overwriting LNL_S in registry with LNL.LNL_S. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  @register_model
+epoch 1/80: loss 2.4340  raw 92.26%  ema 91.71%  best 92.26%  (8.6m elapsed 8.6m)  *best*
+Epoch [2/80], lter [200/1225], Loss: 1.009506, lr 1.94e-04
+Epoch [2/80], lter [400/1225], Loss: 0.968810, lr 2.21e-04
+Epoch [2/80], lter [600/1225], Loss: 0.946855, lr 2.49e-04
+Epoch [2/80], lter [800/1225], Loss: 0.931921, lr 2.76e-04
+Epoch [2/80], lter [1000/1225], Loss: 0.922213, lr 3.03e-04
+Epoch [2/80], lter [1200/1225], Loss: 0.914472, lr 3.30e-04
+epoch 2/80: loss 0.9139  raw 97.03%  ema 98.95%  best 98.95%  (7.2m elapsed 15.8m)  *best*
+Epoch [3/80], lter [200/1225], Loss: 0.885376, lr 3.61e-04
+Epoch [3/80], lter [400/1225], Loss: 0.875870, lr 3.88e-04
+Epoch [3/80], lter [600/1225], Loss: 0.874671, lr 4.15e-04
+Epoch [3/80], lter [800/1225], Loss: 0.871991, lr 4.43e-04
+Epoch [3/80], lter [1000/1225], Loss: 0.869171, lr 4.70e-04
+Epoch [3/80], lter [1200/1225], Loss: 0.867160, lr 4.97e-04
+epoch 3/80: loss 0.8666  raw 96.71%  ema 99.22%  best 99.22%  (7.9m elapsed 23.7m)  *best*
+Epoch [4/80], lter [200/1225], Loss: 0.837334, lr 5.00e-04
+Epoch [4/80], lter [400/1225], Loss: 0.842111, lr 5.00e-04
+Epoch [4/80], lter [600/1225], Loss: 0.838498, lr 5.00e-04
+Epoch [4/80], lter [800/1225], Loss: 0.836075, lr 5.00e-04
+Epoch [4/80], lter [1000/1225], Loss: 0.830182, lr 5.00e-04
+Epoch [4/80], lter [1200/1225], Loss: 0.825639, lr 5.00e-04
+epoch 4/80: loss 0.8256  raw 98.27%  ema 99.22%  best 99.22%  (7.2m elapsed 30.9m)
+Epoch [5/80], lter [200/1225], Loss: 0.804180, lr 5.00e-04
+Epoch [5/80], lter [400/1225], Loss: 0.793047, lr 5.00e-04
+Epoch [5/80], lter [600/1225], Loss: 0.790449, lr 5.00e-04
+Epoch [5/80], lter [800/1225], Loss: 0.789820, lr 4.99e-04
+Epoch [5/80], lter [1000/1225], Loss: 0.789614, lr 4.99e-04
+Epoch [5/80], lter [1200/1225], Loss: 0.789644, lr 4.99e-04
+epoch 5/80: loss 0.7903  raw 98.70%  ema 99.46%  best 99.46%  (7.8m elapsed 38.7m)  *best*
+Epoch [6/80], lter [200/1225], Loss: 0.785489, lr 4.99e-04
+Epoch [6/80], lter [400/1225], Loss: 0.769498, lr 4.99e-04
+Epoch [6/80], lter [600/1225], Loss: 0.776983, lr 4.99e-04
+Epoch [6/80], lter [800/1225], Loss: 0.773774, lr 4.99e-04
+Epoch [6/80], lter [1000/1225], Loss: 0.773270, lr 4.98e-04
+Epoch [6/80], lter [1200/1225], Loss: 0.772237, lr 4.98e-04
+epoch 6/80: loss 0.7718  raw 98.72%  ema 99.50%  best 99.50%  (7.2m elapsed 45.9m)  *best*
+
+Target accuracy 99.5% reached (best=99.50%, which=ema) after 6 epochs. Stopping.
+
+Saved best checkpoint to checkpoints/LNL_Ti_224_best.pt: best_acc=99.50% which=ema
